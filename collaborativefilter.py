@@ -129,11 +129,10 @@ def app():
     st.divider()
 
     file_path = 'health_data/'
-    file_name = 'exercise_dataset.csv'
+    file_name = 'exercise_dataset3000.csv'
 
     # Load and preprocess the data
     df = get_data(file_path, file_name)
 
     # Display the dashboard
     streamlit_dashboard(df)
-

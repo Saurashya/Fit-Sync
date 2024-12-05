@@ -34,7 +34,6 @@ def display_introduction():
 
 
 
-
 # Main function to set up the dashboard
 def app():
     st.title(f"{TITLE_ICON} Home")

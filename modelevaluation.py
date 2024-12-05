@@ -144,7 +144,7 @@ def streamlit_dashboard(df):
 
     # Selectbox for choosing the action
     selected_choice = st.selectbox("Choose Metrics to Display", 
-                                   options=["Metrics for SVD", 
+                                    options=["Metrics for SVD", 
                                             "Metrics for ALS", 
                                             "Metrics for KNN"])
     
@@ -189,13 +189,10 @@ def app():
 
     # File path and name for the data
     file_path = 'health_data/'
-    file_name = 'exercise_dataset.csv'
+    file_name = 'exercise_dataset3000.csv'
 
     # Load and preprocess the data
     df = get_data(file_path, file_name)
 
     # Display the dashboard
     streamlit_dashboard(df)
-
-
-

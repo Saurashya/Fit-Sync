@@ -34,7 +34,7 @@ class DataPreprocessing:
     def encode_categorical_columns(self):
         # If categorical columns are provided, ensure they are encoded
         if self.categorical_columns:
-           self.data = pd.get_dummies(self.data, columns=self.categorical_columns)
+            self.data = pd.get_dummies(self.data, columns=self.categorical_columns)
 
     def scale_numerical_features(self):
         # Scaling numerical columns

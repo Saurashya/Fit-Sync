@@ -35,4 +35,3 @@ class MultiApp:
         for app in self.apps:
             if app['title'] == selected_app:
                 app['function']()
-

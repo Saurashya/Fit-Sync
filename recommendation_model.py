@@ -165,4 +165,3 @@ def plot_metrics(models, mae, rmse, mse, precision_at_5):
 
     # Show the plot
     plt.show()
-

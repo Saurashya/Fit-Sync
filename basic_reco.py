@@ -179,7 +179,7 @@ def streamlit_dashboard(df):
 
     # Selectbox for choosing the action
     selected_choice = st.selectbox("Choose Recommendation Type", 
-                                   options=["Recommended Exercises by Age and BMI", 
+                                    options=["Recommended Exercises by Age and BMI", 
                                             "Recommended Exercises by Intensity"])
     
     # Button to trigger display of the selected option
@@ -214,7 +214,7 @@ def app():
     st.divider()
 
     file_path = 'health_data/'
-    file_name = 'exercise_dataset.csv'
+    file_name = 'exercise_dataset3000.csv'
 
     # Load and preprocess the data
     df = get_data(file_path, file_name)

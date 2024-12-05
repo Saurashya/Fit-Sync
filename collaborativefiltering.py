@@ -143,5 +143,3 @@ class UserBasedCollaborativeFiltering:
         }
 
         return summary
-    
-
