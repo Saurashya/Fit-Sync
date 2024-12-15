@@ -37,7 +37,7 @@ Welcome to the Personalized Exercise Recommendation System! This dashboard lever
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/bnvaidya20/Exercise-Recommendation-System.git
+   git clone https://github.com/Saurashya/Fit-Sync.git
    cd Exercise-Recommendation-System
    ```
 
