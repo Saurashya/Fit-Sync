@@ -1,4 +1,4 @@
-# Personalized Exercise Recommendation System
+# FitSync
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)
@@ -6,7 +6,7 @@
 
 ## Overview
 
-Welcome to the Personalized Exercise Recommendation System! This dashboard leverages advanced collaborative filtering techniques and machine learning models to provide customized exercise recommendations based on user profiles. The goal is to help users find exercises that are best suited to their needs, improving their fitness journey in an informed and personalized manner.
+Welcome to FitSync! This dashboard leverages advanced collaborative filtering techniques and machine learning models to provide customized exercise recommendations based on user profiles. The goal is to help users find exercises that are best suited to their needs, improving their fitness journey in an informed and personalized manner.
 
 ## Table of Contents
 
@@ -71,18 +71,22 @@ Welcome to the Personalized Exercise Recommendation System! This dashboard lever
 ## Usage
 
 1. **Home Page:**
+
    - Overview of the application and how to navigate through it.
    - Learn about different features available in the dashboard.
 
 2. **Basic Recommendation:**
+
    - Discover basic exercise recommendations.
    - Observe impact of various factors BMI, exercise intensity etc.
 
 3. **Collaborative Filtering:**
+
    - Discover personalized exercise recommendations based on user profiles.
    - View similar users and their preferred exercises.
 
 4. **Recommendation Model Evaluation:**
+
    - Evaluate different recommendation models.
    - Visualize metrics such as MAE, RMSE, and Precision@k using bar charts.
    - Choose a model and get insights into its performance.
@@ -104,7 +108,7 @@ Exercise-Recommendation-System/
 ├── collaborativefiltering.py   # Collaborative Filtering Logic
 ├── recommendation_model.py     # Recommendation Model Evaluation Logic
 ├── nav_menu.py                 # Streamlit Navigation Menu Logic
-├── home.py                     # Streamlit Home Page 
+├── home.py                     # Streamlit Home Page
 ├── basic_reco.py               # Streamlit Basic Recommendation Logic
 ├── collaborativefilter.py      # Streamlit Collaborative Filtering Logic
 └── modelevaluation.py          # Streamlit Recommendation Model Evaluation Logic
@@ -124,4 +128,3 @@ Exercise-Recommendation-System/
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
